@@ -1,0 +1,63 @@
+Server Creation = nodejs + Express
+------------------------------------
+
+Basic Commands
+---------------
+
+1)Creation of the package.json - npm init
+2)Creation of the node modules - npm i express (installing of express)
+3)Install mongoose - npm i mongoose  bmnvg fr
+
+Basic Steps
+-----------------
+
+1)Creating a folder(BankServer)
+2)Create package.json
+3)Install Express
+4)Create index.js
+5)Import Express inside the index.js
+6)Create an app using the express
+7)Setup port number 
+8)Resolving http request
+  Get - To get the data
+  post - To post the data
+  put - update data partially
+  patch - update the data completely
+  delete - delete the data completely
+9)HTTP response code
+   1xx - Information
+   2xx - Successful
+   3xx - redirection
+   4xx - Clind error
+   5xx - server error
+10)JWT token--authentication
+to check login or not?
+   Install JWT - npm i jsonwebtoken
+   To generate a token - sign()
+
+   login ---------token generate------------------>client-----------req to deposit+tpken---->server token check?
+
+11)Middleware-to verify the token
+It comes in the middle of the request and response of the nodejs execution process
+  1)Application Specific Middleware - for entire application
+  req,res,next
+  2)Router specific number - Validate token - verify()
+12)Database Integration
+  1)Install mongoose - npm i mongoose  (for connecting nodejs and mongodb)
+
+13)Asynchronous Function resolving - promise
+  1)REsolve State - .then()
+  2)REject State - catch()
+
+14)CORS - Cross Origin Resorce Sharing
+
+  install cors - npm i cors
+     port 4200 (angular)--------------request------------> 3000 node
+15)Asynchronous call - Rxjs  (Reactive Extension for javascript)
+   JS - promise
+   TS - RxJs(library)
+
+   1)Observable
+     a)resolved - subscribe()
+     b)reject - catch
+  
